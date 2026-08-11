@@ -1,6 +1,6 @@
 module ALU(
-    input A,
-    input B,
+    input [31:0] A,
+    input [31:0] B,
     input [2:0] ALUcontrole,
     output reg [31:0] Result,
     output zero
