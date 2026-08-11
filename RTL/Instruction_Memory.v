@@ -6,7 +6,7 @@ module insturction_memory(
 
     reg [31:0] memory [0:63];
 
-    assign instruction = memory[read_address[31:2]];
+    assign instruction = memory[read_address[7:2]];
 
     initial
     begin
